@@ -3,6 +3,7 @@ function clicks(input, btn, donatedAmount) {
         let inputText = document.getElementById(input).value;
         const amount = parseInt(inputText);
         if (typeof amount === 'number' && amount >= 0) {
+            document.getElementById('msg').classList.remove('hidden');
             document.getElementById(donatedAmount).innerText = parseInt(document.getElementById(donatedAmount).innerText) + amount;
             document.getElementById('account-balance').innerText = parseInt(document.getElementById('account-balance').innerText) - amount;
             document.getElementById(input).value = '';
@@ -96,4 +97,9 @@ document.getElementById('donation-btn').addEventListener('click', function () {
         hiddenSection.classList.add('hidden');
     }
     document.getElementById('ft').classList.remove('hidden');
+})
+
+
+document.getElementById('close-btn').addEventListener('click',function(){
+    document.getElementById('msg').classList.add('hidden');
 })

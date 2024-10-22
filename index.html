@@ -16,49 +16,49 @@
         </style>
     </head>
     <body class="lexend">
-        <header class="sticky z-50 backdrop-blur-xl bg-rgba(255, 255, 255, 0.7) top-0 pb-1">
-            <nav class="bg-[#F9F7F3] flex justify-between items-center lg:px-32 lg:py-6">
+        <header class="sticky z-50 backdrop-blur-xl bg-rgba(255, 255, 255, 0.7) top-0 pb-1 ">
+            <nav class="bg-[#F9F7F3] flex justify-between items-center lg:px-28 lg:py-6 px-4 py-4">
                 <div>
                     <a href="Blog.html">
-                        <button class="bg-[#B4F461] font-semibold text-xl text-[#111111] py-3 px-8 rounded-lg">Blog</button>
+                        <button class="bg-[#B4F461] font-semibold lg:text-xl text-lg text-[#111111] lg:py-3 py-2 lg:px-8 px-6 rounded-lg">Blog</button>
                     </a>
                 </div>
                 <div class="flex items-center gap-4">
                     <div>
                         <img src="assets/logo.png" alt="">
                     </div>
-                    <h1 class="font-bold text-xl text-[#111111] inline">Donate Bangladesh</h1>
+                    <h1 class="font-bold text-xl text-[#111111] hidden lg:block">Donate Bangladesh</h1>
                 </div>
-                <div class="flex gap-3 items-center">
+                <div class="flex lg:gap-3 items-center">
                     <div>
-                        <img src="assets/coin.png" alt="">
+                        <img src="assets/coin.png" alt="" class="lg:w-full w-4/5">
                     </div>
-                    <h1 class="font-medium text-xl text-[rgba(17,17,17,0.72)]">
+                    <h1 class="font-medium lg:text-xl text-lg text-[rgba(17,17,17,0.72)]">
                         <span id="account-balance">10000</span>
                         BDT
                     </h1>
                 </div>
             </nav>
-            <div class="text-center my-4">
-                <button class="bg-[#B4F461] font-semibold text-xl text-[#111111] py-4 px-8 rounded-lg mr-5" id="donation-btn">Donation</button>
-                <button class="font-semibold text-xl py-4 px-8 rounded-lg border-[2px] text-[rgba(17,17,17,0.7)] bg-[#0000000e]" id="history-btn">History</button>
+            <div class="text-center lg:my-4 my-2">
+                <button class="bg-[#B4F461] font-semibold lg:text-xl text-lg text-[#111111] lg:py-4 lg:px-8 py-2 px-4 rounded-lg mr-5" id="donation-btn">Donation</button>
+                <button class="font-semibold lg:text-xl text-lg lg:py-4 lg:px-8 py-2 px-4 rounded-lg border-[2px] text-[rgba(17,17,17,0.7)] bg-[#0000000e]" id="history-btn">History</button>
             </div>
         </header>
-        <main id="main-container" class="lg:px-36">
-            <section class="flex lg:flex-row flex-col lg:gap-7 border rounded-2xl p-8 lg:mb-8 shadow-2xl">
+        <main id="main-container" class="lg:px-28 px-4">
+            <section class="flex lg:flex-row flex-col lg:gap-7 gap-4 border rounded-2xl lg:p-8 p-5 lg:mb-8 mb-5 shadow-xl lg:shadow-2xl">
                 <div class="lg:w-1/2 w-full">
-                    <img src="assets/noakhali.png" alt="" class="w-full h-full">
+                    <img src="assets/noakhali.png" alt="" class="w-full">
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-[rgba(17,17,17,0.05)] rounded-lg px-4 py-2 inline-block">
                         <img src="assets/coin.png" alt="" class="inline mr-2 w-[24px] h-[24px]">
-                        <span class="inline text-[rgba(17,17,17,0.7)]">
+                        <span class="inline text-[rgba(17,17,17,0.7)] text-lg font-semibold">
                             <span id="donated-amount-for-noakhali">0</span>
                             BDT
                         </span>
                     </div>
                     <h1 class="font-bold text-xl text-[#111111] my-4">Donate for Flood at Noakhali, Bangladesh</h1>
-                    <p class="text-[rgba(17,17,17,0.69)] font-light my-4">
+                    <p class="text-[rgba(17,17,17,0.69)] font-light mt-4 mb-4 lg:mb-16">
                         The recent floods in Noakhali have caused
                     significant damage to homes infrastructure. Your donation will help provide essential supplies and
                     to those affected by this disaster. Every contribution, big or small, makes difference. Please join
@@ -74,27 +74,27 @@
                         >
                     </div>
                     <div>
-                        <button id="donate-btn-1" class="bg-[#B4F461] font-semibold text-xl text-[#111111] py-4 px-8 rounded-lg w-full">
+                        <button id="donate-btn-1" class="bg-[#B4F461] font-semibold lg:text-xl text-lg text-[#111111] lg:py-4 py-2 lg:px-8 px-4 rounded-lg w-full">
                             Donate
                         Now
                         </button>
                     </div>
                 </div>
             </section>
-            <section class="flex lg:flex-row flex-col lg:gap-7 border rounded-2xl p-8 lg:mb-8 shadow-2xl">
+            <section class="flex lg:flex-row flex-col lg:gap-7 gap-4 border rounded-2xl lg:p-8 p-5 lg:mb-8 mb-5 lg:shadow-2xl shadow-xl">
                 <div class="lg:w-1/2 w-full">
-                    <img src="assets/feni.png" alt="" class="w-full h-full">
+                    <img src="assets/feni.png" alt="" class="w-full">
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-[rgba(17,17,17,0.05)] rounded-lg px-4 py-2 inline-block">
                         <img src="assets/coin.png" alt="" class="inline mr-2 w-[24px] h-[24px]">
-                        <span class="inline text-[rgba(17,17,17,0.7)]">
+                        <span class="inline text-[rgba(17,17,17,0.7)] font-semibold text-lg">
                             <span id="donated-amount-for-feni">0</span>
                             BDT
                         </span>
                     </div>
                     <h1 class="font-bold text-xl text-[#111111] my-4">Donate for Flood Relief in Feni, Bangladesh</h1>
-                    <p class="text-[rgba(17,17,17,0.69)] font-light my-4">
+                    <p class="text-[rgba(17,17,17,0.69)] font-light lg:mt-4 mb-4 lg:mb-24">
                         The recent floods in Feni have devastated local
                     communities, leading to severe disruption and loss. Your generous donation will help provide
                     immediate aid, including food, clean water, and medical supplies, to those affected by this
@@ -112,27 +112,27 @@
                         >
                     </div>
                     <div>
-                        <button id="donate-btn-2" class="bg-[#B4F461] font-semibold text-xl text-[#111111] py-4 px-8 rounded-lg w-full">
+                        <button id="donate-btn-2" class="bg-[#B4F461] font-semibold lg:text-xl text-lg text-[#111111] lg:py-4 py-2 px-8 rounded-lg w-full">
                             Donate
                         Now
                         </button>
                     </div>
                 </div>
             </section>
-            <section class="flex lg:flex-row flex-col lg:gap-7 border rounded-2xl p-8 lg:mb-8 shadow-2xl">
+            <section class="flex lg:flex-row flex-col lg:gap-7 gap-4 border rounded-2xl lg:p-8 p-5 lg:mb-8 shadow-xl lg:shadow-2xl">
                 <div class="lg:w-1/2 w-full">
-                    <img src="assets/quota-protest.png" alt="" class="w-full ">
+                    <img src="assets/quota-protest.png" alt="" class="w-full">
                 </div>
                 <div class="lg:w-1/2">
                     <div class="bg-[rgba(17,17,17,0.05)] rounded-lg px-4 py-2 inline-block">
                         <img src="assets/coin.png" alt="" class="inline mr-2 w-[24px] h-[24px]">
-                        <span class="inline text-[rgba(17,17,17,0.7)]">
+                        <span class="inline text-[rgba(17,17,17,0.7)] font-semibold text-lg">
                             <span id="donated-amount-for-students">0</span>
                             BDT
                         </span>
                     </div>
                     <h1 class="font-bold text-xl text-[#111111] my-4">Aid for Injured in the Quota Movement</h1>
-                    <p class="text-[rgba(17,17,17,0.69)] font-light my-4">
+                    <p class="text-[rgba(17,17,17,0.69)] font-light mt-4 mb-4 lg:mb-24">
                         The recent Quota movement has resulted in numerous
                     injuries and significant hardship for many individuals. Your support is crucial in providing medical
                     assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help
@@ -150,15 +150,47 @@
                         >
                     </div>
                     <div>
-                        <button id="donate-btn-3" class="bg-[#B4F461] font-semibold text-xl text-[#111111] py-4 px-8 rounded-lg w-full">
+                        <button id="donate-btn-3" class="bg-[#B4F461] font-semibold lg:text-xl text-lg text-[#111111] lg:py-4 py-2 px-8 rounded-lg w-full">
                             Donate
                         Now
                         </button>
                     </div>
                 </div>
             </section>
+            <div
+                class="relative z-10 hidden"
+                aria-labelledby="modal-title"
+                role="dialog"
+                aria-modal="true"
+                id="msg"
+            >
+                <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
+                <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
+                    <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                        <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                            <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+                                <div class="">
+                                    <div class="mt-3 text-center sm:mt-0 sm:text-left">
+                                        <h3 class="text-4xl text-center font-bold leading-6 text-gray-900" id="modal-title">Congratulations!</h3>
+                                        <div>
+                                            <img src="assets/coin.png" alt="" class="mx-auto my-5">
+                                        </div>
+                                        <div class="mt-2">
+                                            <p class="text-xl text-gray-500 text-center my-5">You Have Donated for Humankind</p>
+                                            <h1 class="text-3xl font-bold text-center mb-4">Successfully</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="px-4 py-3 w-auto text-center">
+                                    <button type="button" id="close-btn" class="inline-flex w-full mx-auto justify-center rounded-md bg-[#B4F461] px-5 py-4 text-lg font-semibold text-black shadow-sm sm:ml-3 sm:w-auto">Close Confirmation</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
-        <footer id="ft" class="bg-[#F9F7F3] h-32"></footer>
+        <footer id="ft" class="bg-[#F9F7F3] lg:h-32 h-20 mt-4"></footer>
         <script src="JS/home.js"></script>
     </body>
 </html>
